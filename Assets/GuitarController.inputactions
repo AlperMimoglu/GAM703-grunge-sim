@@ -1,0 +1,206 @@
+{
+    "name": "GuitarController",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "e1a86c66-c710-490e-9ef8-02e132bffbad",
+            "actions": [
+                {
+                    "name": "green",
+                    "type": "Button",
+                    "id": "a9bff5fe-a730-4d06-8f57-7642afc4fee0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "red",
+                    "type": "Button",
+                    "id": "4371a11e-edfc-493c-bc29-73426e30bfb3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "yellow",
+                    "type": "Button",
+                    "id": "ee859cf8-736f-48cd-bd2c-de9e7984bcba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "blue",
+                    "type": "Button",
+                    "id": "1dff9e58-e516-4cfa-8a15-c1d9c802b534",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "orange",
+                    "type": "Button",
+                    "id": "404b4a55-dbd9-4531-b0ed-6d159f8137df",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "start",
+                    "type": "Button",
+                    "id": "e7a55e0e-930b-416c-aedf-b5bd7520a43d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "starpower",
+                    "type": "Button",
+                    "id": "a4f066f1-9924-4f3a-a43d-ba0bc4c3fa5f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "strumdown",
+                    "type": "Button",
+                    "id": "a27cc89e-341b-43e3-91a1-39cab028ce51",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "strumup",
+                    "type": "Button",
+                    "id": "350b9e3b-40be-4571-b216-b92e8ddb28a4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a22626b6-aab6-42a3-af89-71ac3d132c26",
+                    "path": "<XInputController>/select",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Guitar Xbox Controller",
+                    "action": "start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad48ab2a-17b9-440d-a9ac-770eb1edc378",
+                    "path": "<XInputController>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Guitar Xbox Controller",
+                    "action": "starpower",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b3244d60-f987-4f52-8456-f7d427e500e7",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "green",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "818b8ef1-9455-4020-923c-a80186939d3b",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "red",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e230023-b32d-4435-a60b-5eb25c1c54c4",
+                    "path": "<XInputController>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "yellow",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3010440-905e-4485-9793-61a4057e943f",
+                    "path": "<XInputController>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "blue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2bde3a0f-9944-4a79-81c5-40b71763b666",
+                    "path": "<XInputController>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "orange",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5188b944-362a-4202-9146-1c1b59b255be",
+                    "path": "<XInputController>/dpad/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "strumdown",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "adb3baad-b753-4c28-bdd1-3df917e79d18",
+                    "path": "<XInputController>/dpad/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "strumup",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Guitar Xbox Controller",
+            "bindingGroup": "Guitar Xbox Controller",
+            "devices": [
+                {
+                    "devicePath": "<XInputController>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
